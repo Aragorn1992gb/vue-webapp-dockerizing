@@ -1,7 +1,7 @@
 FROM node:alpine
 
 # install simple http server for serving static content
-#RUN npm install -g live-server
+RUN npm install -g vue-cli
 
 # make the 'app' folder the current working directory
 WORKDIR '/app'
